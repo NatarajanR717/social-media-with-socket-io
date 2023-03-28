@@ -12,10 +12,10 @@ function Followerscard() {
                         <img src={follower.img} className='followerimg'></img>
                         <div className='name'>
                             <span>{follower.name}</span>
-                            <span>{follower.username}</span>
+                            <span>@{follower.username}</span>
                         </div>
                     </div>
-                    <button>Follow</button>
+                    <button className='button fc-button'>Follow</button>
                 </div>
             )
         })}
