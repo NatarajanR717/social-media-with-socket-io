@@ -1,0 +1,15 @@
+.rightside{
+   display: flex;
+   flex-direction: column;
+   gap: 2rem;
+}
+
+.navicon{
+   display: flex;
+   margin-top: 1rem;
+   justify-content: space-between;
+}
+.navicon>img{
+   width: 1.5rem;
+   height: 1.5rem;
+}
